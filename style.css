@@ -1,0 +1,98 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background: linear-gradient(to right, #5bc0be, #3a86ff);
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  width: 320px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+
+.card h2 {
+  color: #3a86ff;
+}
+
+input, select, textarea {
+  width: 100%;
+  margin: 8px 0;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+textarea {
+  resize: none;
+  height: 70px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 8px;
+  border: none;
+  border-radius: 6px;
+  background: #3a86ff;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #265df2;
+}
+
+.top-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.event-list {
+  margin-top: 15px;
+}
+
+.event-card {
+  background: #f1f5ff;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  position: relative;
+}
+
+.delete-btn {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  background: red;
+  border: none;
+  color: white;
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+  cursor: pointer;
+}
+
+.empty {
+  color: gray;
+}
+
+.dom-card {
+  width: 660px;
+  margin: 20px auto;
+}
